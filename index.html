@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home – Makers Portfolio</title>
+  <meta name="description" content="TODO: Short intro to appear in search and link previews.">
+  <meta property="og:title" content="Home – Makers Portfolio">
+  <meta property="og:description" content="Minimal engineering portfolio template site.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="/index.html">
+  <meta property="og:image" content="/assets/opengraph.png">
+  <link rel="stylesheet" href="/style.css">
+  <script defer src="/main.js"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="/index.html" class="active">Home</a>
+      <a href="/projects/index.html">Projects</a>
+      <a href="/resume/index.html">Resume</a>
+      <a href="/about/index.html">About</a>
+      <a href="/contact/index.html">Contact</a>
+      <button id="theme-toggle" aria-label="Toggle dark mode"></button>
+    </nav>
+  </header>
+  <main class="main">
+    <h1>TODO: Your Name</h1>
+    <p>TODO: Write a 2–3 sentence intro about yourself and what you do. Make it concise and inviting.</p>
+    <section style="display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 2rem;">
+      <a href="/projects/index.html" class="button">Projects</a>
+      <a href="/resume/index.html" class="button">Resume</a>
+      <a href="/contact/index.html" class="button">Contact</a>
+    </section>
+    <section>
+      <h2>Featured Projects</h2>
+      <div class="grid" id="featured-projects">
+        <!-- JS will load cards here from JSON, fallback shown below -->
+        <div class="card">
+          <h3>Project Alpha</h3>
+          <p>A short summary of Project Alpha.</p>
+        </div>
+        <div class="card">
+          <h3>Project Beta</h3>
+          <p>A short summary of Project Beta.</p>
+        </div>
+        <div class="card">
+          <h3>Project Gamma</h3>
+          <p>A short summary of Project Gamma.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; <span id="year"></span> TODO Your Name</p>
+  </footer>
+</body>
+</html>
